@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess The Code</title>
+  </head>
+  <body>
+    <div class="main">
+      <!--Head Section-->
+      <section class="head">
+        <div class="heading">
+            <h1>Guess The Code</h1>
+            <p>Game For Programmers</p>
+        </div>
+        <button class="start_btn" id="start" onclick="open_popup()">Start</button><br>
+        <button class="help_btn" id="help">Help</button>
+         
+    
+      </section>
+      <!--Pop_Up-->
+      <section class="pop_up" id="pop_up">
+        <div class="name_pop-up">
+            <label for="name">Enter Your Name :</label><br>
+            <input type="text" placeholder="Enter Your Name Here" id="username"><br>
+            <button class="sbmt" onclick="start_game()" href="game.html">Let's Start</button>
+            <button class="cancel" onclick="close_popup()">Cancel</button>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

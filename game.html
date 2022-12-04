@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Guess The Code</title>
+</head>
+
+<body>
+  <div class="main">
+    <!--Head Section-->
+    <section class="head">
+      <div class="heading">
+        <h1>Guess The Code</h1>
+        <p>Game For Programmers</p>
+        <h3 id="score"> <br /></h3>
+      </div>
+      <div class="games_img" id="image"></div>
+      
+        <div class="startbtn"><button id="chng" onclick="getImage()">Start Game</button></div>
+        <div class="sbmt_area" id="sbmt_area">
+        <span><input  type="radio" name="language" id="clang" value="c++.png" /><label class="select" >C++</label></span><br />
+        <span><input  type="radio" name="language" id="python" value="python.png" /><label class="select" >Python</label></span><br />
+        <span><input  type="radio" name="language" id="Javascript" value="javascript.png" /><label class="select" >Javascript</label></span><br />
+        <span><input  type="radio" name="language" id="php" value="php.png" /><label class="select" ></label>Php</label></span><br />
+        <div class="endbtn"><button onclick="getAnswer()">Check Answer</button></div>
+      </div>
+      </div>
+    </section>
+
+    <!--Pop_Up-->
+    <!-- <section class="pop_up" id="pop_up">
+          <div class="name_pop-up">
+              <label for="name">Enter Your Name :</label><br>
+              <input type="text" placeholder="Enter Your Name Here" id="username"><br>
+              <button class="sbmt" onclick="start_game()" href="game.html">Let's Start</button>
+              <button class="cancel" onclick="close_popup()">Cancel</button>
+          </div>
+        </section> -->
+  </div>
+</body>
+<script src="index.js"></script>
+
+</html>
